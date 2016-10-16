@@ -1,0 +1,24 @@
+{
+  "name": "kabanery-header",
+  "version": "0.0.1",
+  "description": "header widget for kabanery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveKino/kabanery-header.git"
+  },
+  "keywords": [
+    "kabanery",
+    "header",
+    "widget"
+  ],
+  "author": "ddchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoveKino/kabanery-header/issues"
+  },
+  "homepage": "https://github.com/LoveKino/kabanery-header#readme"
+}
