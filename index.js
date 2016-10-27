@@ -33,8 +33,8 @@ let logoLeft = (logoLeftNode) => {
 };
 
 module.exports = view(({
-    back,
-    rightLogos = [], leftLogos = []
+    back, title = '',
+        rightLogos = [], leftLogos = []
 } = {}) => {
     return n('div', {
         style: {
@@ -54,6 +54,15 @@ module.exports = view(({
         }, '<')) : null,
 
         map(leftLogos, logoLeft),
+
+        n('div', {
+            style: {
+                textAlign: 'center',
+                color: 'white',
+                fontSize: 20,
+                lineHeight: 40
+            }
+        },title),
 
         reduce(rightLogos, (prev, logo) => {
             prev.unshift(logoRight(logo));
